@@ -16,9 +16,14 @@ class School{
 }
 $c1 = new School();
 $c2 = new School();
+$c3 = new School();
 
 $c1->a = 50;
 $c1->b = 500;
+
+
+$c3->a = 50;
+$c3->b = 500;
 
 $c1->a = 5000;
 $c1->b = 500;
