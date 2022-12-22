@@ -35,7 +35,9 @@ echo "<br>";
 echo $c2->Sum();
 echo "<br>";
 echo $c2->Sub();
-
-
+echo "<br>";
+echo $c3->Sum();
+echo "<br>";
+echo $c3->Sub();
 
 ?>
