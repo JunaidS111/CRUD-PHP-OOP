@@ -17,6 +17,7 @@ class School{
 $c1 = new School();
 $c2 = new School();
 $c3 = new School();
+$c4 = new School();
 
 $c1->a = 50;
 $c1->b = 500;
@@ -27,6 +28,9 @@ $c2->b = 500;
 
 $c3->a = 1035;
 $c3->b = 523;
+
+$c4->a = 1035;
+$c4->b = 523;
 
 echo $c1->Sum();
 echo "<br>";
@@ -39,5 +43,9 @@ echo "<br>";
 echo $c3->Sum();
 echo "<br>";
 echo $c3->Sub();
+echo "<br>";
+echo $c4->Sum();
+echo "<br>";
+echo $c4->Sub();
 
 ?>
