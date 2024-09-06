@@ -25,6 +25,6 @@
 
 	$cname = $car_name->get_name();
 
-	echo $cname;
+	echo "The care name is" . $cname;
 
 ?>
