@@ -4,6 +4,7 @@
 
 		public $name;
 		public $brand;
+		public $year;
 
 
 		function set_name($name){
